@@ -5,8 +5,13 @@ This is a very simple module that enables a node.js application to check for upd
 ## Setup
 Clone the repo<br>
 `git clone Omega172/Auto-Update`<br><br>
+
 Change into the directory and install the dependencies<br>
 `cd Auto-Update && npm install`<br><br>
+
+Now build the module<br>
+`npm run build`<br><br>
+
 Then copy `Main.js` & `Main.d.ts` from the `Build` directory to your project and import the module with `import { AutoUpdate } from './Build/Main.js';`
 
 ## Example Use
