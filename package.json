@@ -1,0 +1,26 @@
+{
+  "name": "autoupdate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Build/Main.js",
+  "types": "Build/Main.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "author": "Omega172",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "fs-extra": "^11.2.0",
+    "semver": "^7.6.2",
+    "simple-git": "^3.25.0",
+    "suppress-experimental-warnings": "^2.0.0",
+    "typescript": "^5.6.0-dev.20240621"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.14.7",
+    "@types/semver": "^7.5.8"
+  }
+}
