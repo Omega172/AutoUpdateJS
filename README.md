@@ -19,7 +19,7 @@ Then copy `Main.js` & `Main.d.ts` from the `Build` directory to your project and
 import { AutoUpdate } from './Build/Main.js';
 
 const Config = {
-    RepoURL: 'https://github.com/Omega172/AutoUpdateJSt/',
+    RepoURL: 'https://github.com/Omega172/AutoUpdateJS/',
     Branch: 'main',
     PathToPackage: '/EXAMPLE PATH/ANOTHER_FOLDER/',
     ExecuteOnComplete: 'echo Update complete!',
