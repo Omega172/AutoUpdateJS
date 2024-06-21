@@ -37,5 +37,6 @@ AutoUpdater.CheckForUpdate((UpdateAvailable) => {
 ```
 
 # TODO
+- [ ] List of files to exclude by path
 - [ ] Support updating from releases
 - [ ] Publish the package
