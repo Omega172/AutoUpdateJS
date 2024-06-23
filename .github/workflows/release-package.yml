@@ -25,6 +25,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build_npm:
+    needs: build_git # Wait for build_git to finish before tying to publish to npm
     runs-on: ubuntu-latest
     permissions:
       contents: read
