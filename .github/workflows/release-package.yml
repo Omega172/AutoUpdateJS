@@ -21,6 +21,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@omega172'
       - run: npm ci
+      - run: npx tsc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,6 +38,7 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
+      - run: npx tsc
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
