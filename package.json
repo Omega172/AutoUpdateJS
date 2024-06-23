@@ -1,11 +1,11 @@
 {
-  "name": "autoupdate",
+  "name": "autoupdatejs",
   "version": "0.0.1",
   "description": "",
   "main": "Build/Main.js",
   "types": "Build/Main.d.ts",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "tsc"
   },
   "author": "Omega172",
   "license": "MIT",
@@ -21,7 +21,10 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.14.8",
-    "@types/semver": "^7.5.8",
-    "@types/typescript": "^2.0.0"
+    "@types/semver": "^7.5.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omega172/AutoUpdateJS.git"
   }
 }
