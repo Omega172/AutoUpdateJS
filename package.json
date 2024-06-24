@@ -28,7 +28,6 @@
     "url": "https://github.com/Omega172/AutoUpdateJS.git"
   },
   "engines" : { 
-    "npm" : ">=10.8.1",
-    "node" : ">=20.15.0"
+    "node" : ">=20.0.0"
   }
 }
