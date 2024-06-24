@@ -7,7 +7,7 @@ This is a very simple module that enables a node.js application to check for upd
 
 ## Example Use
 ```ts
-import { AutoUpdate } from './Build/Main.js';
+import { AutoUpdate } from '@omega172/autoupdatejs';
 
 const Config = {
     RepoURL: 'https://github.com/Omega172/AutoUpdateJS/',
