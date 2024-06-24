@@ -1,6 +1,6 @@
 {
   "name": "@omega172/autoupdatejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "Build/Main.js",
   "types": "Build/Main.d.ts",
@@ -26,5 +26,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Omega172/AutoUpdateJS.git"
+  },
+  "engines" : { 
+    "npm" : ">=10.8.1",
+    "node" : ">=20.15.0"
   }
 }

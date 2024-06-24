@@ -26,7 +26,7 @@ export class AutoUpdate {
 
     constructor(Config: RequiredFields<Config, `RepoURL` | `Branch`>) {
         this.SourcePath = 'file://' + appRootPath.path;
-        import(this.SourcePath.concat('\\package.json'), { assert: { type: "json" } }).then((Module) => {
+        import(this.SourcePath.concat('/package.json'), { with: { type: "json" } }).then((Module) => {
             this.PackageJSON = Module;
         });
 
